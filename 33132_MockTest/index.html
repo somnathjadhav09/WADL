@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+    <!-- Name: Somnath Jadhav
+         Div: 33132
+         Batch:K-9          -->
+</head>
+<body>
+    
+    <div class="container">
+        <div class="heading">
+           <h2><b>User Form</b></h2>
+        </div>
+        <div class="name">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;">Enter Name: </div>
+            <input type="text" style="width: 60em;">
+        </div>
+        <div class="add">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;" >Enter Address: </div>
+            <input type="text" style="width: 60em; ">
+        </div>
+        <div class="game">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;">
+                Select Game
+            </div>
+            <div class="box" style="border: 1px solid black; margin-right: 5px; width: 60em;">
+                <input type="checkbox" id="Hockey" name="Hockey" value="hocky">
+                <label for="Hockey">Hockey </label><br>
+                <input type="checkbox" id="Football" name="Football" value="Car">
+                <label for="Football"> Football</label><br>
+                <input type="checkbox" id="Bandminton" name="Bandminton" value="Bandminton">
+                <label for="Bandminton"> Bandminton</label><br>
+                <input type="checkbox" id="Cricket" name="Cricket" value="Cricket">
+                <label for="Cricket"> Cricket </label><br>
+                <input type="checkbox" id="Vollyball" name="Vollyball" value="Vollyball">
+                <label for="Vollyball"> Vollyball</label><br>
+                
+            </div>
+        </div>
+        <div class="gender">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;">
+                Gender
+            </div>
+            <div style="width: 60em;border: 1px solid black; ">
+                    <input type="radio" id="l" name="gender" value="l" checked>
+					<label for="l">Male</label>
+					<input type="radio" id="p" name="gender" value="p">
+					<label for="p">Female</label>
+            </div>
+        </div>
+        <div class="age">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;">Select Age</div>
+            <div style="width: 60em;">
+                <select name="age" id="age">
+                    <option value="1-5">1-5</option>
+                    <option value="1">5-10</option>
+                    <option value="1">10-15</option>
+                    <option value="1">15-20</option>
+                    <option value="1">20-25</option>
+                    
+                  </select>
+            </div>
+        </div>
+        <div class="file">
+            <div style="border: 1px solid black; margin-right: 5px; width: 40em;">Choose a file </div>
+            <div style="border: 1px solid black; margin-right: 5px; width: 60em;"><input type="file"></div>
+            
+        </div>
+        <div class="buttons">
+            <button style="border-radius: 5px;background-color: rgb(92, 89, 89);">Click Me</button>
+            <button style="border-radius: 5px;background-color: rgb(92, 89, 89);">Reset</button>
+            <button style="border-radius: 5px;background-color: rgb(92, 89, 89);">Submit Form</button>
+        </div>
+    </div>
+
+</body>
+</html>

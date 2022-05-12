@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 5px;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
+}
+.heading{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin-bottom: 5px;
+    /* background-color: rgb(92, 89, 89); */
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5px;
+     */
+     /* border: 1px solid black; */
+     margin-bottom: 5px;
+     
+    
+}
+
+.add{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    /* border: 1px solid black; */
+    /* margin-bottom: 5px; */
+}
+
+.game{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5px; */
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.age{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.file{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.buttons{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
